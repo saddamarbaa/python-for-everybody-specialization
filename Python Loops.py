@@ -7,6 +7,16 @@ while i < 10:
     i = i + 1 # increment i by one
 print("this is after while loop")
 
+# Calculate sum of posstive number in this sorted list
+list = [5, 4, 3, 1, -3, -6]
+sum = 0
+i = 0
+while list[i] > 0 :
+    sum += list[i]
+    i += 1
+print("sum is  = ", sum)
+
+
 # The break Statement with while loop
 i = 1
 while i < 10:
@@ -38,7 +48,7 @@ else:
 student = ["Jhon", "Manar", "Ali", "Nincy"]
 for i in student :
     print(i)
-    
+
 # The break Statement with for loop
 for i in student :
     if i == "Manar":
@@ -70,6 +80,13 @@ for i in range(2, 7) :
 for i in range(5, 25, 5):
     print(i)
     
+# sum of list
+list = [2,3,4,5]
+total = 0
+for i in list:
+    total += i
+print("total is ", total)
+    
 # Else in For Loop
 # print number from 2 to 22 (22 not included)
 # increment i by 2
@@ -84,3 +101,4 @@ fruits = ["apple", "banana", "cherry"]
 for x in adj:  # outer loop
   for y in fruits: # Nested Loops
     print(x, y)
+    
