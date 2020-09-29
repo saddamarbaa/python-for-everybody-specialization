@@ -1,15 +1,15 @@
 # Python Dictionaries
 # {key , value}
 
-dictionary = {} # empty dictionary
+dictionary = {} # Create empty dictionary
 
-# phone Book dictionary 
+# create phone Book dictionary 
 phoneBook = {"Bob" : "12-237373", 
             "Ali"  : "2137373",
             "Joli" : "32736462",
             "Mnaue": "21732_8383"}
 
-# dictionary with mixed keys
+# create dictionary with mixed keys
 dict1 = {'name': 'Sadam', 1: [1, 2, 3]}
 
 print(phoneBook) # print Dictionary
@@ -23,7 +23,7 @@ print(phoneBook.get('Adam')) # Output: Adam
 print(dict1.get('name'))     # output  name
 
 # Changing and adding Dictionary Elements
-phoneBook = {"Bob" : "54239493", "Joli" : "32736462" }
+phoneBook = {"Bob" : "54239493", "Joli" : "32736462", "Soli" : "32736462" }
 
 # update value
 phoneBook['Ali'] = "63626_82837"
@@ -31,11 +31,14 @@ phoneBook['Ali'] = "63626_82837"
 # add new  item
 phoneBook['Sali'] = '663621_12'
 
-#now  print Dictionary
+# now print Dictionary
 print(phoneBook)
 
 # Loop Through a Dictionary
 for name in phoneBook :
+  print(name)
+print() # new line
+for name in dictionary :
   print(name)
 
 # Check if Key Exists in phoneBook
@@ -45,10 +48,14 @@ else :
   print("Not, 'Ali not Exists")
 
 # Removing elements from a dictionary
-
 print(phoneBook.pop("Ali")) # remove Ali
 print(phoneBook)
 print(phoneBook.pop("Sali")) # remove Sali
+print() # new line 
+print(phoneBook)
+
+# delete elements from a dictionary using del keyword
+del phoneBook["Soli"] # delete Soli
 print()
 print(phoneBook)
 
