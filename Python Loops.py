@@ -4,7 +4,7 @@
 i = 1
 while i < 10:
     print(i)
-    i = i + 1 #  increment i by one
+    i = i + 1 # increment i by one
 print("this is after while loop")
 
 # Calculate sum of posstive number in this sorted list
