@@ -32,7 +32,7 @@ print(furit)
 # swap furit[0] and furit[2]
 furit[0], furit[2] = furit[2], furit[0] 
 print(furit)
-print(furit[-1]) # print the last one index value
+print(furit[-1]) #  print the last one index value
 print(furit[2 : 5]) # print from 2 to 5
 print(furit[: 3]) # print from 0 to 3
 print(furit[3 :]) # print from 3 to last
