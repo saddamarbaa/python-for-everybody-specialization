@@ -1,4 +1,4 @@
-# print the 10 most commom words in Dictionary
+#  print the 10 most commom words in Dictionary
 
 name = input("Enter file:") # user input
 # Error handling use default file name 
