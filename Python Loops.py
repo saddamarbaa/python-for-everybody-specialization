@@ -128,7 +128,14 @@ fruits = ["apple", "banana", "cherry"]
 for x in adj:  # outer loop
   for y in fruits: # Nested Loops
     print(x, y)
-    
+
+# find sum of all the digits in given number(Lec 3 | MIT Fall 2008)   
+sumdigit = 0 # counter
+# convert the number to string and iterate digit by digit
+for i in str(1952):
+    # for each digit convert back to int and add to sumdigit
+    sumdigit += int(i)
+print(sumdigit)
     
     
     
