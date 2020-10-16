@@ -1,6 +1,12 @@
-# Python Loops
+"""
+Python Loops
+for Reference 
+Lec 3 | MIT 6.00 Introduction to Computer Science and Programming, Fall 2008
+link:
+https://youtu.be/X6ilT3uUOBo 
+"""
 # Python While Loop
-# Print i as long as i is less than 10 
+# Print i as long as i is less than 10  
 i = 1
 while i < 10:
     print(i)
@@ -16,7 +22,28 @@ while list[i] > 0 :
     i += 1
 print("sum is  = ", sum)
 
+# find the square Root of a perfect square(Lec 3 | MIT Fall 2008)
+n = 16  
+answer = 0 # counter
+if n >= 0:
+    while answer * answer < n:
+        answer += 1 # increment counter by one
+        print(f"answer : {answer}")
+        if answer * answer != n:
+            print(f"{answer} is not a perfect square root") 
+        else:
+            print(f"{answer} is a perfect square root") 
+else:
+    print(f"Error {n} is a negative number") 
 
+# find find all the divisor of  N (Lec 3 | MIT Fall 2008)
+n = 10 
+i = 1 # counter
+while i < n:
+    if n % i == 0:
+        print(f"{i} is divisor")
+    i += 1 # increment counter by one
+            
 # The break Statement with while loop
 i = 1
 while i < 10:
@@ -101,4 +128,7 @@ fruits = ["apple", "banana", "cherry"]
 for x in adj:  # outer loop
   for y in fruits: # Nested Loops
     print(x, y)
+    
+    
+    
     
