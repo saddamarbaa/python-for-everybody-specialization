@@ -84,6 +84,19 @@ Capstone: Retrieving, Processing, and Visualizing Data with Python course on Cou
 https://www.coursera.org/learn/python-data-visualization
 
 
+## Recommended Books For the Course
+
+1. python for everybody by charles severance
+
+2. python crash course, 2nd edition: a hands-on, project-based introduction to programming by eric matthes
+
+3. Automate the Boring Stuff with Python. By Al Sweigart.
+
+4. think python how to think like a computer scientist by allen b. downey
+
+5. learn python the hard way book by zed shaw
+
+
 
 
 
